@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadavinci</title>
+    <style>
+        html{
+            background-color: #000000;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            width: 60%;
+            text-align: left;
+            margin: 1rem 0;
+        }
+        nav ul {
+            list-style-type: disc;
+            padding: 0;
+            font-weight: 600;
+        }
+        nav ul li {
+            margin: 0.5rem 0;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        nav ul li a {
+            text-decoration: underline;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 18px;
+            
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        #snek{
+            animation: rotate 5s linear infinite;
+        }
+
+        @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cadavinci</h1>
+        <img id="snek" style="width: 60px;"  src="sneki.png" alt="">
+    </header>
+    <main style="width:70%;margin-left: 30px;margin-bottom: 45px;display: flex;justify-content: center; align-items: left;flex-direction: column; background-color: black;">
+
+        
+        
+        <p style="color: #57d9db;text-align: left; font-weight: 600;font-size: 21px;">Contact</p>
+        <nav style="width:90%;display: flex;justify-content: left; align-items: center;">
+            <ul style="color: #fff;">
+                <li><a href="https://www.linkedin.com/in/antonio-cadavid-7ab265203/">Linkedin</a></li>
+                <li><a href="https://github.com/cadavincito">Github</a></li>
+            </ul>
+        </nav>
+
+        <p style="color: #57d9db;text-align: left; font-weight: 600;font-size: 21px;">Some of my work</p>
+        <nav style="width:90%;display: flex;justify-content: left; align-items: center;">
+            <ul style="color: #fff;">
+                <li><a href="https://kaleidoscopic-trifle-aa7233.netlify.app/">Margenes Labs - Three.js</a></li>
+                <li><a href="https://plenitudxsiempre.com/">Plenitud por siempre - html,css</a></li>
+                <li><a href="https://goatwearshop.com.co/">Goat Wear shop - Shopify</a></li>
+                <li><a href="https://osorioabogados.com/">Ososrio abogados - Wordpress</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p style="font-weight: 600;">&copy; 2024 Antonio Cadavid :)</p>
+    </footer>
+</body>
+</html>
